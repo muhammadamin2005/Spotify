@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter" , sans-serif;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+main {
+  padding: 22px 27px 0 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+header {
+  width: 100%;
+  background-color: dimgray;
+  height: 52px;
+}
+main .wrapper {
+  width: 100%;
+  height: 272px;
+  background-color: gold;
+  display: flex;
+  gap: 45px;
+}
+main .wrapper .card {
+  width: 188px;
+  height: 272px;
+  background-color: azure;
+}
+main {
+  width: calc(100% - 240px);
+  height: 100%;
+  background-color: cornflowerblue;
+}
+/* aside */
+
+aside {
+  width: 240px;
+  height: 100%;
+  padding: 24px 8px 8px 8px;
+  background-color: #F3F4F6;;
+}
+aside .logo {
+  height: 40px;
+  width: 100%;
+  padding-left: calc(24px - 8px);
+  margin-bottom: 20px;
+}
+aside .group1 {
+  height: 120px;
+  width: 100%;
+  margin-bottom: 20px;
+} 
+aside .group1 div p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px ;
+  color:#6b7280 ;
+}
+aside .group1 div {
+  width: 224px;
+  height: 40px;
+  display: flex;
+  gap: 14.4px;
+  align-items: center;
+  padding: 10.4px 18.4px;
+}
+aside .group2 div{
+  width: 224px;
+  height: 40px;
+  display: flex;
+  gap: 14.4px;
+  align-items: center;
+  padding: 10.4px 18.4px;
+  color:#6b7280 ;
+}
+
+aside .group2 {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 44px;
+}
+aside hr {
+  margin: 18px 0 14px 0;
+  border: 1px solid #f3f4f6;
+  border-bottom: none;
+}
+aside .group3 {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color:#6b7280 ;
+}
+aside .group1 div :first-child :hover{
+  background-color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+}
+aside .group3 div:first-child {
+  width: 100%;
+  height: 20px;
+  margin-left: calc(24px - 8px);
+}
+aside .group3 div:last-child{
+  width: 224px;
+  height: 40px;
+  display: flex;
+  gap: 14.4px;
+  align-items: center;
+  padding: 10.4px 18.4px;
+}
+aside div p:hover{
+color: #10b981;
+}
+
